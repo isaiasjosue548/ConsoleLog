@@ -26,3 +26,7 @@ article {
     display: grid;
     grid-template-columns: 300px 1fr;
 }
+
+.lineChart {
+    margin: 0 auto;
+}

@@ -61,6 +61,7 @@ export default function ChartLine({result}) {
     { result != '' &&
     <>
     <LineChart
+      className="lineChart"
       width={800}
       height={300}
       data={data}
@@ -78,6 +79,7 @@ export default function ChartLine({result}) {
       <Line type="monotone" dataKey="cantidad" stroke="#82ca9d" />
     </LineChart>
     <LineChart
+      className="lineChart"
       width={800}
       height={50}
       data={data2}

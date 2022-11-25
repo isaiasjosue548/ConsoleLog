@@ -79,7 +79,8 @@ function Search({ setCount }) {
   
   return (
     <div className='search'>
-      <div className='search__wrapper-input'>
+      <div className='d-flex justify-content search__wrapper-input'>
+        <p>Busca un Producto</p>
         <input ref={inputSearch} className='search__input form-control' type="text" placeholder="Añade 3 letras o más" onChange={inputPokemon}/>
       </div>
       {showPokemons && <div className="search__results">
