@@ -1,6 +1,6 @@
 // import "./styles.css";
 import React, { useEffect, useState } from "react";
-import json from '../../data/ejemplo.json';
+import json from '../data/ejemplo.json';
 
 import {
   LineChart,
