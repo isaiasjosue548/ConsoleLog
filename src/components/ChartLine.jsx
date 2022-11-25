@@ -28,7 +28,7 @@ const num_orders = json.num_orders;
     "Dic",
   ]
 
-export default function ChartLine() {
+export default function ChartLine({result}) {
 
   const [data, setData] = useState([]);
   const [data2, setData2] = useState([]);
@@ -50,9 +50,15 @@ export default function ChartLine() {
   useEffect(() => {
     console.log(data2)
   }, [data2])
+
+  useEffect(() => {
+    console.log('aah',result)
+  }, [result])
   
   
   return (
+    <>
+    { result != '' &&
     <>
     <LineChart
       width={800}
@@ -85,6 +91,8 @@ export default function ChartLine() {
       <Line type="monotone" dataKey="cantidad" stroke="#fff" activeDot={{ r: 12 }} />
       <XAxis dataKey="name" />
     </LineChart>
+    </>
+    }
     </>
   );
 }
