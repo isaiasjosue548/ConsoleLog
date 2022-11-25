@@ -13,12 +13,8 @@
     "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
-    "react-router-dom": "6"
-=======
     "rechart": "^0.0.1",
     "recharts": "^2.1.16"
->>>>>>> 253d0ef746d3b75d0116d328243bd5a7cc83f8a6
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
